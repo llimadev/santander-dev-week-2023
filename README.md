@@ -8,9 +8,9 @@ classDiagram
     class User {
         -String name
         -Account account
-        -Features features
+        -Features[] features
         -Card card
-        -News news
+        -News[] news
     }
 
     class Account {
